@@ -1,0 +1,174 @@
+server:
+  port: 8080
+  servlet:
+    context-path:/
+
+limit:
+  minMoney: 2
+  maxMoney: 100
+
+lucky:
+  money:
+    config:
+      title: 美团
+      image: https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*OwZWQ68zSTMAAAAAAAAAAABkARQnAQ
+      url: imeituan://www.meituan.com/web?url=http://dpurl.cn/Q0nTOJV
+
+upgradeconfig:
+  versionCode: 20
+  downloadUrl: https://imtt.dd.qq.com/16891/apk/2F7B82DC8EBE1D0B4A1C4ECD6311D6BA.apk?fsname=com.dewmobile.kuaiya_5.9.3%20(CN)_341.apk
+
+browserconfig:
+  channelControl:
+    - name: tecent
+      hideAd: true
+    - name: xiaomi
+      hideAd: true
+    - name: vivo
+      hideAd: true
+    - name: oppo
+      hideAd: true
+    - name: huawei
+      hideAd: true
+    - name: meizu
+      hideAd: true
+    - name: jinli
+      hideAd: true
+    - name: baidu
+      hideAd: true
+    - name: qihu360
+      hideAd: true
+    - name: lenovo
+      hideAd: true
+    - name: uc
+      hideAd: true
+    - name: wandoujia
+      hideAd: true
+  websites:
+    - name: 百度
+      imageUrl: image/websites/ic_baidu.png
+      packageName:
+      webUrl: https://www.baidu.com/
+      url: https://www.baidu.com/
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 拼多多
+      imageUrl: image/websites/ic_pdd.png
+      packageName: com.xunmeng.pinduoduo
+      webUrl: https://p.pinduoduo.com/OFK9USZF
+      url: https://p.pinduoduo.com/OFK9USZF
+      action: android.intent.action.VIEW
+      component: com.goods.browser/com.qu.browser.activity.JumpActivity
+      copy:
+    - name: 淘宝
+      imageUrl: image/websites/ic_taobao.png
+      packageName: com.taobao.taobao
+      webUrl: https://s.click.taobao.com/BSurbpv
+      url: tbopen://m.taobao.com/tbopen/index.html?h5Url=https://s.click.taobao.com/BSurbpv
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 天猫
+      imageUrl: image/websites/ic_tianmao.png
+      packageName: com.tmall.wireless
+      webUrl: https://s.click.taobao.com/BSurbpv
+      url: tmall://page.tm/webview?url=https://s.click.taobao.com/BSurbpv
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 唯品会
+      imageUrl: image/websites/ic_wph.png
+      packageName: com.achievo.vipshop
+      webUrl: https://t.vip.com/1SdSbTeMDT6
+      url: vipshop://goHome?tra_from=tra%3AC01V4m7vv42uzug2%3A%3Amig_code%3A%3Aac01prp3yq6u0b5i1jzau309qax6n00r
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 京东
+      imageUrl: image/websites/ic_jingdong.png
+      packageName: com.jingdong.app.mall
+      webUrl: https://u.jd.com/EZPxKR
+      url: openapp.jdmobile%3a%2f%2fvirtual%3fparams%3d%7b%22category%22%3a%22jump%22%2c%22des%22%3a%22m%22%2c%22url%22%3a%22https%3a%2f%2fu.jd.com%2fEZPxKR%22%2c%22keplerID%22%3a%220%22%2c%22keplerFrom%22%3a%221%22%2c%22kepler_param%22%3a%7b%22source%22%3a%22kepler-open%22%2c%22otherData%22%3a%7b%22mopenbp7%22%3a%220%22%7d%7d%2c%22union_open%22%3a%22union_cps%22%7d
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 头条
+      imageUrl: image/websites/ic_toutiao.png
+      packageName: com.ss.android.article.news
+      webUrl: https://m.toutiao.com/
+      url:
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 免费小说
+      imageUrl: image/websites/ic_xiaoshuo.png
+      packageName: novel
+      webUrl:
+      url:
+      action:
+      component:
+      copy:
+    - name: 搞笑视频
+      imageUrl: image/websites/ic_gaoxiaoshipin.png
+      packageName:
+      webUrl: http://gaoxiao.52op.net/
+      url:
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 小游戏
+      imageUrl: image/websites/ic_game.png
+      packageName: game
+      webUrl:
+      url:
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 爱奇艺
+      imageUrl: image/websites/ic_aiqiyi.png
+      packageName: com.qiyi.video
+      webUrl: https://m.iqiyi.com/
+      url:
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name: 美团
+      imageUrl: image/websites/ic_meituan.png
+      packageName: com.sankuai.meituan
+      webUrl: http://dpurl.cn/Q0nTOJV
+      url: imeituan://www.meituan.com/web?url=http://dpurl.cn/Q0nTOJV
+      action: android.intent.action.VIEW
+      component:
+      copy:
+  luckymoney:
+    - name: 美团红包
+      imageUrl: image/luckymoney/luckmoney_meituan.png
+      packageName: com.sankuai.meituan
+      webUrl: http://dpurl.cn/Q0nTOJV
+      url: imeituan://www.meituan.com/web?url=http://dpurl.cn/Q0nTOJV
+      action: android.intent.action.VIEW
+      component:
+      copy:
+    - name:  拼多多红包
+      imageUrl: image/luckymoney/luckymoney_pdd.png
+      packageName: com.xunmeng.pinduoduo
+      webUrl: https://p.pinduoduo.com/OFK9USZF
+      url:
+      action: android.intent.action.qu.BROWSER
+      component: com.goods.browser/com.qu.browser.activity.JumpActivity
+      copy:
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/User?serverTimezone=GMT
+    username: root
+    password: 139660
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
